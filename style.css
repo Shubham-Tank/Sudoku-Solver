@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(7, 118, 138);
+}
+
+.container{
+    margin:auto;
+    width: 40%;
+}
+.input{
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    text-align:center;
+    border-radius: 5px;
+}
+.heading {
+    margin-left: 18%;
+    color:silver;
+    text-shadow:
+    4px 4px 1px #000030,
+    4px 6px 1px #000040,
+    4px 8px 1px #000050,
+    4px 10px 1px #000060,
+    4px 12px 1px #000070,
+    4px 14px 1px #000080,
+    4px 16px 1px #000090,
+    4px 18px 1px #0000A0,
+    4px 20px 1px #0000B0
+}
+
+.error {
+    margin-left: 44%;
+    width: 12%;
+    color:silver;
+    text-shadow:
+    4px 4px 1px #300000,
+    4px 6px 1px #400000,
+    4px 8px 1px #500000,
+    4px 10px 1px #600000,
+    4px 12px 1px #700000,
+    4px 14px 1px #800000,
+    4px 16px 1px #900000,
+    4px 18px 1px #A00000,
+    4px 20px 1px #B00000
+}
+
+.solve{
+    font-size: x-large;
+    background-color: rgb(23, 168, 30);
+    color: white;
+}
+.reset{
+    font-size: x-large;
+    background-color: rgb(177, 30, 30);
+    color: white;
+}
+.btn-container{
+    margin-top: 1%;
+    margin-left: 32.5%;
+}
+
+@keyframes animate{
+    0%{
+        /* color: red; */
+        font-size: 0;
+    }
+    50%{
+        font-size: initial;
+        /* color: green; */
+    }
+}
